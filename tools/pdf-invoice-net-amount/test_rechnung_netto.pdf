@@ -1,0 +1,284 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+[ 11 0 R 12 0 R ]
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F1-0 9 0 R
+/F2 8 0 R
+/F2-0 10 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Length 2432
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 20 Tf 24 TL ET
+BT 1 0 0 1 56.69291 756.8504 Tm (Muster AG) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 56.69291 734.1732 Tm (Bahnhofstrasse 1  |  8001 Z\374rich  |  muster@example.ch) Tj T* ET
+BT /F2 16 Tf 19.2 TL ET
+BT 1 0 0 1 56.69291 671.811 Tm (RECHNUNG) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 56.69291 643.4646 Tm (Rechnungsnummer: 2024-0042) Tj T* ET
+BT 1 0 0 1 56.69291 626.4567 Tm (Datum: 28.03.2026) Tj T* ET
+BT 1 0 0 1 56.69291 609.4488 Tm (F\344lligkeit: 28.04.2026) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 340.1575 643.4646 Tm (Kundenmaier GmbH) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 340.1575 626.4567 Tm (Seestrasse 42) Tj T* ET
+BT 1 0 0 1 340.1575 609.4488 Tm (3001 Bern) Tj T* ET
+.15 .25 .45 rg
+n 56.69291 544.252 481.8898 22.67717 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 62.3622 551.3386 Tm (Beschreibung) Tj T* ET
+BT 1 0 0 1 477.9134 551.3386 Tm (Betrag CHF) Tj T* ET
+0 0 0 rg
+.95 .97 1 rg
+n 56.69291 503.1496 481.8898 22.67717 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 62.3622 510.2362 Tm (Softwareentwicklung \(40h \340 CHF 150.00\)) Tj T* ET
+BT 1 0 0 1 494.8634 510.2362 Tm (6'000.00) Tj T* ET
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 62.3622 487.5591 Tm (Projektmanagement \(8h \340 CHF 120.00\)) Tj T* ET
+BT 1 0 0 1 502.3334 487.5591 Tm (960.00) Tj T* ET
+.95 .97 1 rg
+n 56.69291 457.7953 481.8898 22.67717 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 62.3622 464.8819 Tm (Infrastruktur & Hosting \(M\344rz 2026\)) Tj T* ET
+BT 1 0 0 1 502.3334 464.8819 Tm (240.00) Tj T* ET
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 62.3622 442.2047 Tm (Reisekosten) Tj T* ET
+BT 1 0 0 1 507.8934 442.2047 Tm (85.50) Tj T* ET
+.7 .7 .7 RG
+n 56.69291 419.5276 m 538.5827 419.5276 l S
+BT /F1 10 Tf 12 TL ET
+0 0 0 rg
+BT 1 0 0 1 62.3622 402.5197 Tm (Zwischensumme \(exkl. MWST\):) Tj T* ET
+BT 1 0 0 1 494.8634 402.5197 Tm (7'285.50) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+0 0 0 rg
+BT 1 0 0 1 62.3622 382.6772 Tm (MWST 8.1%:) Tj T* ET
+BT 1 0 0 1 502.3334 382.6772 Tm (590.13) Tj T* ET
+.15 .25 .45 RG
+1.5 w
+n 56.69291 374.1732 m 538.5827 374.1732 l S
+BT /F2 10 Tf 12 TL ET
+0 0 0 rg
+BT 1 0 0 1 62.3622 362.8346 Tm (Bruttobetrag CHF:) Tj T* ET
+BT 1 0 0 1 494.3934 362.8346 Tm (7'875.63) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 56.69291 56.69291 Tm (Bankverbindung: IBAN CH56 0483 5012 3456 7800 9  |  ZKB Z\374rich  |  Zahlbar innert 30 Tagen) Tj T* ET
+ 
+
+Q
+
+endstream
+endobj
+12 0 obj
+<<
+/Length 1372
+>>
+stream
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.941176 0.968627 1 rg
+0.145098 0.388235 0.921569 RG
+1.5 w
+n
+68.0315 42.51969 m
+527.2441 42.51969 l
+533.5121 42.51969 538.5827 47.5903 538.5827 53.85827 c
+538.5827 138.8976 l
+538.5827 145.1656 533.5121 150.2362 527.2441 150.2362 c
+68.0315 150.2362 l
+61.76353 150.2362 56.69291 145.1656 56.69291 138.8976 c
+56.69291 53.85827 l
+56.69291 47.5903 61.76353 42.51969 68.0315 42.51969 c
+h
+B*
+0.117647 0.227451 0.372549 rg
+BT
+/F2-0 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 73.70079 124.7244 Tm
+(Nettobetrag \050berechnet\051) Tj
+T*
+ET
+0.145098 0.388235 0.921569 RG
+0.5 w
+n
+68.0315 116.2205 m
+527.2441 116.2205 l
+S
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0.215686 0.254902 0.317647 rg
+BT
+1 0 0 1 73.70079 104.8819 Tm
+(Bruttobetrag\072) Tj
+T*
+ET
+0.215686 0.254902 0.317647 rg
+BT
+1 0 0 1 460.1948 104.8819 Tm
+(CHF 7\047875\05663) Tj
+T*
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0.215686 0.254902 0.317647 rg
+BT
+1 0 0 1 73.70079 85.03937 Tm
+(abz\374glich MWST\072) Tj
+T*
+ET
+0.215686 0.254902 0.317647 rg
+BT
+1 0 0 1 461.5548 85.03937 Tm
+(\055 CHF 590\05613) Tj
+T*
+ET
+0.611765 0.639216 0.686275 RG
+0.4 w
+n
+68.0315 77.95276 m
+527.2441 77.95276 l
+S
+BT
+/F2-0 10 Tf
+12 TL
+ET
+0.215686 0.254902 0.317647 rg
+BT
+1 0 0 1 73.70079 65.19685 Tm
+(Nettobetrag\072) Tj
+T*
+ET
+0.066667 0.094118 0.152941 rg
+BT
+1 0 0 1 459.7248 65.19685 Tm
+(CHF 7\047285\05650) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+0000000361 00000 n 
+0000000394 00000 n 
+0000000460 00000 n 
+0000000567 00000 n 
+0000000679 00000 n 
+0000000786 00000 n 
+0000000899 00000 n 
+0000003384 00000 n 
+trailer
+<<
+/Size 13
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+4809
+%%EOF
