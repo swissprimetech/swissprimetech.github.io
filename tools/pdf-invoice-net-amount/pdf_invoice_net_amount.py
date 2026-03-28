@@ -61,9 +61,19 @@ _GROSS_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Strict: MWST WITH percentage rate (e.g. "MWST 8.1%: 590.13")
+_VAT_STRICT_RE = re.compile(
+    r"(?:" + "|".join(_VAT_LABELS) + r")"
+    r"\s*\d{1,2}[.,]\d{1,2}\s*%"        # REQUIRED rate
+    r"[^\d\-]*"
+    r"(" + _CURRENCY + r"\s*" + _NUM + r")",
+    re.IGNORECASE,
+)
+
+# Loose: MWST anywhere, used for findall fallback
 _VAT_RE = re.compile(
     r"(?:" + "|".join(_VAT_LABELS) + r")"
-    r"(?:\s*\d{1,2}[.,]\d{1,2}\s*%)?"   # optional rate, e.g. 8.1%
+    r"(?:\s*\d{1,2}[.,]\d{1,2}\s*%)?"   # optional rate
     r"[^\d\-]*"
     r"(" + _CURRENCY + r"\s*" + _NUM + r")",
     re.IGNORECASE,
@@ -128,10 +138,19 @@ def extract_amounts(text: str) -> InvoiceAmounts:
     if gross_match:
         result.gross = _parse_amount(gross_match.group(1))
 
-    # Extract VAT
-    vat_match = _VAT_RE.search(text)
+    # Extract VAT — prefer strict match (MWST with percentage rate)
+    vat_match = _VAT_STRICT_RE.search(text)
     if vat_match:
         result.vat = _parse_amount(vat_match.group(1))
+    else:
+        # Fallback: collect all MWST matches, exclude implausibly large values
+        # (e.g. "exkl. MWST: 7'285.50" is subtotal, not VAT)
+        candidates = [_parse_amount(m) for m in _VAT_RE.findall(text)]
+        candidates = [v for v in candidates if v is not None and v > 0]
+        if candidates:
+            # VAT is always smaller than gross; pick the smallest plausible value
+            candidates.sort()
+            result.vat = candidates[0]
 
     # Calculate net
     if result.gross is not None and result.vat is not None:
